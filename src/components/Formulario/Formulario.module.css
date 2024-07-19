@@ -1,0 +1,33 @@
+.input{
+    width: 150px;
+    padding: 8px;
+    display: block;
+    margin: 8px  auto;
+    border: none;
+    background-color: #6c6c6c;
+    color: #eee;
+    border-radius: 5px;
+}
+
+.form{
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 100px;
+}
+
+input::placeholder{
+    color: #eee;
+}
+
+input:focus{
+    outline: none;
+}
+
+.imc{
+    padding: 16px;
+    font-size: 24px;
+    margin-top: 24px;
+    background-color: #6c6c6c;
+    color: #eee;
+    border-radius: 5px;
+}
